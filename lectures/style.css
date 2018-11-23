@@ -1,0 +1,31 @@
+[class*='c-']
+{
+    width:100%;
+    float:left;
+}
+[class*='c-']:hover{
+box-shadow: 8px 9px 17px 4px black;
+}
+
+
+@media only screen and (min-width: 500px) {
+    .c-small-6{
+        width:50%
+    }
+
+}
+@media only screen and (min-width: 700px) {
+    .c-medium-4{
+        width:33.33%
+    }
+
+}
+@media only screen and (min-width: 900px) {
+    .c-large-3{
+        width:25%
+    }
+    @media only screen and (min-width:1100px) {
+        .c-large-1{
+            width:16.66%
+        }
+}
